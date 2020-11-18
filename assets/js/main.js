@@ -160,12 +160,12 @@
     }
   });
 
-  $('.btn-whatsapp').click(function () {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
+  // $('.btn-whatsapp').click(function () {
+  //   $('html, body').animate({
+  //     scrollTop: 0
+  //   }, 1500, 'easeInOutExpo');
+  //   return false;
+  // });
 
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
