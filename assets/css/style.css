@@ -6,12 +6,21 @@ body {
   color: #444444;
 }
 
-a {
+a, b.resaltar {
   color: #7f78d2;
 }
 
 a:hover {
   color: #481380;
+  text-decoration: none;
+}
+
+a.resaltar {
+  color: #481380;
+}
+
+a.resaltar:hover {
+  color: #7f78d2;
   text-decoration: none;
 }
 
@@ -23,6 +32,32 @@ p {
   text-align: justify;
 }
 
+.btn {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-block;
+  padding: 2px 15px 2px 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #7f78d2;
+  border: 1px solid #7f78d2;
+}
+.btn:hover {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-block;
+  padding: 2px 15px 2px 15px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #481380;
+  border: 1px solid #7f78d2;
+}
 
 /*--------------------------------------------------------------
 # BOTONES FLOTANTES
